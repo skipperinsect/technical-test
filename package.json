@@ -1,0 +1,36 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "API Test Rimba",
+  "main": "index.js",
+  "scripts": {
+    "deploy-dev": "sh deploy-dev.sh",
+    "build": "babel  src -d build",
+    "start": "node src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "author": "Yudhitia Rizki Mulyono",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.4",
+    "sqlite3": "^5.1.7",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/node": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "sequelize-cli": "^6.6.2"
+  }
+}
