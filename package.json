@@ -9,6 +9,9 @@
     "start": "node src/index.js",
     "dev": "nodemon --exec babel-node src/index.js"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "author": "Yudhitia Rizki Mulyono",
   "license": "ISC",
   "dependencies": {
